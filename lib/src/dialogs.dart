@@ -366,11 +366,13 @@ class RateMyAppRateButton extends _RateMyAppDialogButton {
   const RateMyAppRateButton(
     RateMyApp rateMyApp, {
     required String text,
+    final TextStyle? textStyle,
     Validator? validator,
     VoidCallback? callback,
   }) : super(
           rateMyApp,
           text: text,
+          textStyle: textStyle,
           validator: validator,
           callback: callback,
         );
@@ -391,6 +393,7 @@ class RateMyAppLaterButton extends _RateMyAppDialogButton {
   const RateMyAppLaterButton(
     RateMyApp rateMyApp, {
     required String text,
+    final TextStyle? textStyle,
     Validator? validator,
     VoidCallback? callback,
   }) : super(
@@ -416,6 +419,7 @@ class RateMyAppNoButton extends _RateMyAppDialogButton {
   const RateMyAppNoButton(
     RateMyApp rateMyApp, {
     required String text,
+    final TextStyle? textStyle,
     Validator? validator,
     VoidCallback? callback,
   }) : super(
