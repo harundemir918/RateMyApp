@@ -399,6 +399,7 @@ class RateMyAppLaterButton extends _RateMyAppDialogButton {
   }) : super(
           rateMyApp,
           text: text,
+          textStyle: textStyle,
           validator: validator,
           callback: callback,
         );
@@ -425,6 +426,7 @@ class RateMyAppNoButton extends _RateMyAppDialogButton {
   }) : super(
           rateMyApp,
           text: text,
+          textStyle: textStyle,
           validator: validator,
           callback: callback,
         );
